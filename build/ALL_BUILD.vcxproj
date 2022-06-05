@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{441A322D-B7E8-39D7-A4E2-D58E1854DE45}</Project>
       <Name>ZENTEngine</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\build\external\glad\glad.vcxproj">
+      <Project>{B3B23F59-4792-3108-8D3E-3A524AF807F8}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\build\external\glfw\src\glfw.vcxproj">
       <Project>{6B0DBF2D-FF5A-359C-9AC8-2A23D9D5E92F}</Project>
       <Name>glfw</Name>

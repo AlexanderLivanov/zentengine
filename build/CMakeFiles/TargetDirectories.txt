@@ -4,3 +4,5 @@ C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/CMakeFi
 C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/external/glfw/CMakeFiles/ALL_BUILD.dir
 C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/external/glfw/src/CMakeFiles/glfw.dir
 C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/external/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/external/glad/CMakeFiles/glad.dir
+C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/build/external/glad/CMakeFiles/ALL_BUILD.dir
