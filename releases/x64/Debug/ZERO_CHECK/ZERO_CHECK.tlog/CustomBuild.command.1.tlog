@@ -1,0 +1,10 @@
+^C:\USERS\SASHA\ONEDRIVE\РАБОЧИЙ СТОЛ\GIT PROJECTS\TANKS\RELEASES\CMAKEFILES\461F7B7083DD564663D8456D4F9ACA09\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks" "-BC:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/releases" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/releases/ZENTEngine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

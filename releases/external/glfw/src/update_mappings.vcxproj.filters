@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\releases\CMakeFiles\dd09f9ff790a416ee2efd2434825a518\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\releases\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{11A78A96-837A-31AE-A10F-5F7F3FD0A1C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1C720B52-B6E5-3444-A209-31EF54C4A6B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

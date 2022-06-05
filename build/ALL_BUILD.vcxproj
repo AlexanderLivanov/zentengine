@@ -27,7 +27,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7D305A7A-FF7C-3671-A879-39DC9665C5EF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -176,6 +176,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\build\ZENTEngine.vcxproj">
       <Project>{441A322D-B7E8-39D7-A4E2-D58E1854DE45}</Project>
       <Name>ZENTEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sasha\OneDrive\Рабочий стол\GIT projects\tanks\build\external\glfw\src\glfw.vcxproj">
+      <Project>{6B0DBF2D-FF5A-359C-9AC8-2A23D9D5E92F}</Project>
+      <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,0 +1,10 @@
+^C:\USERS\SASHA\ONEDRIVE\РАБОЧИЙ СТОЛ\GIT PROJECTS\TANKS\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks" "-BC:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/releases" --check-stamp-file "C:/Users/sasha/OneDrive/Рабочий стол/GIT projects/tanks/releases/external/glfw/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
